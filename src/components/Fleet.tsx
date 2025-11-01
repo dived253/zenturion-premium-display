@@ -1,10 +1,10 @@
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Gauge, Zap, Users } from 'lucide-react';
-import rollsRoyceImage from '@/assets/rolls-royce-ghost.jpg';
-import lamborghiniImage from '@/assets/lamborghini-urus.jpg';
-import mercedesImage from '@/assets/mercedes-g-class.jpg';
-import audiImage from '@/assets/audi-rs6.jpg';
+import rollsRoyceImage from '@/assets/rolls-royce-dark.jpg';
+import lamborghiniImage from '@/assets/lamborghini-urus-yellow.jpg';
+import mercedesImage from '@/assets/mercedes-g-class-hero.jpg';
+import audiImage from '@/assets/audi-rs6-dark.jpg';
 
 const Fleet = () => {
   const cars = [

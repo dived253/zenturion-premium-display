@@ -1,15 +1,16 @@
 import { useState, useEffect } from 'react';
 import { ChevronRight, Play } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-rolls-royce.jpg';
-import lamborghiniImage from '@/assets/lamborghini-urus.jpg';
-import mercedesImage from '@/assets/mercedes-g-class.jpg';
-import audiImage from '@/assets/audi-rs6.jpg';
+import rollsRoyceImage from '@/assets/rolls-royce-dark.jpg';
+import lamborghiniImage from '@/assets/lamborghini-urus-yellow.jpg';
+import mercedesImage from '@/assets/mercedes-g-class-hero.jpg';
+import audiDarkImage from '@/assets/audi-rs6-dark.jpg';
+import audiWhiteImage from '@/assets/audi-rs6-white.jpg';
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
-  const heroImages = [heroImage, lamborghiniImage, mercedesImage, audiImage];
+  const heroImages = [rollsRoyceImage, lamborghiniImage, mercedesImage, audiDarkImage, audiWhiteImage];
 
   useEffect(() => {
     const interval = setInterval(() => {
