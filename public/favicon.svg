@@ -1,23 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#F4E4C1;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#B8941E;stop-opacity:1" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" fill="#000000"/>
   
-  <!-- Background shield -->
-  <path d="M16 2 L28 6 L28 14 Q28 22 16 30 Q4 22 4 14 L4 6 Z" fill="#1a1a1a"/>
-  <path d="M16 3 L27 6.5 L27 14 Q27 21.5 16 29 Q5 21.5 5 14 L5 6.5 Z" fill="#0a0a0a"/>
+  <!-- Sleek sports car silhouette -->
+  <g transform="translate(50, 180)">
+    <!-- Car body outline -->
+    <path d="M 30 50 L 50 35 L 90 25 Q 120 20 150 20 L 240 22 Q 270 23 290 26 L 340 35 Q 360 42 370 50 L 375 55" 
+          fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Windshield and roof -->
+    <path d="M 100 25 L 120 15 L 190 12 L 210 15 L 230 25" 
+          fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Side windows -->
+    <path d="M 130 35 L 140 28 L 180 27 L 190 35" 
+          fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Front wheel arch -->
+    <path d="M 70 50 Q 70 65 85 70 Q 100 65 100 50" 
+          fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Rear wheel arch -->
+    <path d="M 300 50 Q 300 65 315 70 Q 330 65 330 50" 
+          fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Front wheel -->
+    <circle cx="85" cy="65" r="12" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <circle cx="85" cy="65" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Rear wheel -->
+    <circle cx="315" cy="65" r="12" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+    <circle cx="315" cy="65" r="6" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+    
+    <!-- Detail lines -->
+    <line x1="240" y1="30" x2="245" y2="28" stroke="#FFFFFF" stroke-width="1.5"/>
+    <path d="M 20 50 L 30 45 L 40 42" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
   
-  <!-- Stylized Z -->
-  <path d="M10 9 L22 9 L22 11 L13.5 20 L22 20 L22 23 L10 23 L10 21 L18.5 12 L10 12 Z" 
-        fill="url(#goldGradient)" 
-        stroke="#D4AF37" 
-        stroke-width="0.5"/>
+  <!-- ZENTURION text -->
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="12">ZENTURION</text>
   
-  <!-- Subtle accent lines -->
-  <line x1="10" y1="9" x2="22" y2="9" stroke="#F4E4C1" stroke-width="0.5" opacity="0.6"/>
-  <line x1="10" y1="23" x2="22" y2="23" stroke="#F4E4C1" stroke-width="0.5" opacity="0.6"/>
+  <!-- Decorative line -->
+  <line x1="130" y1="350" x2="370" y2="350" stroke="#FFFFFF" stroke-width="1" opacity="0.8"/>
+  
+  <!-- Subtitle -->
+  <text x="250" y="370" font-family="Arial, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="8">PREMIUM CAR RENTAL</text>
 </svg>
