@@ -52,7 +52,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://instagram.com/zenturion.autovermietung"
+              href="https://www.instagram.com/zenturion.autovermietung"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:text-primary transition-smooth"
@@ -88,7 +88,7 @@ const Navbar = () => {
             ))}
             <div className="flex items-center gap-4 pt-4">
               <a
-                href="https://instagram.com/zenturion.autovermietung"
+                href="https://www.instagram.com/zenturion.autovermietung"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-smooth"

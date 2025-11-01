@@ -23,7 +23,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/zenturion.autovermietung"
+                href="https://www.instagram.com/zenturion.autovermietung"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-10 w-10 rounded-full bg-card border border-border flex items-center justify-center hover:border-primary transition-smooth"

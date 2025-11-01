@@ -111,7 +111,7 @@ const Contact = () => {
                 <Button
                   variant="outline"
                   className="w-full border-primary text-primary hover:bg-primary hover:text-black"
-                  onClick={() => window.open('https://instagram.com/zenturion.autovermietung', '_blank')}
+                  onClick={() => window.open('https://www.instagram.com/zenturion.autovermietung', '_blank')}
                 >
                   <Instagram className="mr-2 h-5 w-5" />
                   Instagram Nachricht
@@ -153,7 +153,7 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-foreground">Instagram</div>
                     <a
-                      href="https://instagram.com/zenturion.autovermietung"
+                      href="https://www.instagram.com/zenturion.autovermietung"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary transition-smooth"

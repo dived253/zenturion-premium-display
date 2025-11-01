@@ -31,7 +31,7 @@ const InstagramSection = () => {
           </p>
           <Button 
             className="bg-gradient-gold border-0 text-black font-semibold hover:scale-105 transition-smooth"
-            onClick={() => window.open('https://instagram.com/zenturion.autovermietung', '_blank')}
+            onClick={() => window.open('https://www.instagram.com/zenturion.autovermietung', '_blank')}
           >
             <Instagram className="mr-2 h-5 w-5" />
             Auf Instagram folgen
@@ -43,7 +43,7 @@ const InstagramSection = () => {
           {instagramImages.map((image, index) => (
             <a
               key={index}
-              href="https://instagram.com/zenturion.autovermietung"
+              href="https://www.instagram.com/zenturion.autovermietung"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square overflow-hidden rounded-lg animate-fade-in"
